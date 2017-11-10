@@ -31,10 +31,10 @@ public class ProperAnimActivity extends AppCompatActivity implements View.OnClic
     @Override
     public void onClick(View v) {
         //1通过 ObjectAnimator.ofFloat(<控件句柄>,<控件属性>,<从什么float值>,<到什么float值
-//        ObjectAnimator animator = ObjectAnimator.ofFloat(ivPro, "alpha", 1f, 0f, 1f);
-//        animator.setDuration(1500);
-//        animator.setInterpolator(new AccelerateDecelerateInterpolator());
-//        animator.start();
+        ObjectAnimator animator = ObjectAnimator.ofFloat(ivPro, "alpha", 1f, 0f, 1f);
+        animator.setDuration(1500);
+        animator.setInterpolator(new AccelerateDecelerateInterpolator());
+        animator.start();
         //2 动画合并
 //        ObjectAnimator animator = ObjectAnimator.ofFloat(ivPro,"alpha",1f,0f,1f);
 //        ValueAnimator animator1 = ObjectAnimator.ofFloat(ivPro,"rotation",0,180,0);

@@ -81,7 +81,6 @@ public class GoodsAdapter extends BaseAdapter {
             });
         }
 
-
         public  void updataUI(GoodsModel goodsModel){
             if(goodsModel!=null&& goodsModel.getmGoodBitmap()!=null
                     && mShoppingCartItemIV!=null){

@@ -22,7 +22,7 @@ public class SecondActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_second);
         mButton = (Button) findViewById(R.id.btn_second);
         mButton.setOnClickListener(this);
-//        ObjectAnimator.ofFloat().start();
+        ObjectAnimator.ofFloat().start();
     }
 
     @Override
